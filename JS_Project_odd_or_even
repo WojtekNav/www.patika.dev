@@ -1,0 +1,18 @@
+while (true) {
+    let number = prompt("Bir sayi giriniz: ")
+    let sum=0
+    for (let i of number){
+        sum+=parseInt(i)
+    }
+    result= sum%2
+    if (result ==0){
+        alert("Even Number")
+    }
+    else{
+        alert("Odd Number")
+    }
+    let check= prompt("End Program? Y/N").toString().toUpperCase()
+    if (check=="Y"){
+        break
+    }
+}
